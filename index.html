@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Course Catalog</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#enroll">Enroll</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Learn New Skills Online</h1>
+            <p>Join thousands of learners from around the world</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <section id="courses" class="section">
+        <h2>Courses</h2>
+        <div class="courses-grid">
+            <div class="course-card">
+                <img src="images/course1.jpg" alt="Course 1">
+                <h3>Web Development</h3>
+                <p>Learn the fundamentals of web development.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/course2.jpg" alt="Course 2">
+                <h3>Data Science</h3>
+                <p>Master data analysis and machine learning.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="images/course3.jpg" alt="Course 3">
+                <h3>Graphic Design</h3>
+                <p>Design stunning graphics and visuals.</p>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors" class="section">
+        <h2>Instructors</h2>
+        <div class="instructors-grid">
+            <div class="instructor-card">
+                <img src="images/instructor1.jpg" alt="Instructor 1">
+                <h3>Simeon Ng’eny</h3>
+                <p>Expert in Web Development</p>
+            </div>
+            <div class="instructor-card">
+                <img src="images/instructor2.jpg" alt="Instructor 2">
+                <h3>Lily Jeptoo</h3>
+                <p>Data Science Guru</p>
+            </div>
+            <div class="instructor-card">
+                <img src="images/instructor3.jpg" alt="Instructor 3">
+                <h3>Clara Bwaley</h3>
+                <p>Professional Graphic Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section">
+        <h2>Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <h3>Nicole Jerono</h3>
+                <p>★★★★★</p>
+                <p>Excellent courses! I've learned so much.</p>
+            </div>
+            <div class="review">
+         <h3>Allan Kogo</h3>
+                <p>★★★★☆</p>
+                <p>Very informative and well-structured.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="enroll" class="section">
+        <h2>Enroll in a Course</h2>
+        <form class="enrollment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="web-development">Web Development</option>
+                <option value="data-science">Data Science</option>
+                <option value="graphic-design">Graphic Design</option>
+            </select>
+            <button type="submit">Enroll Now</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+<br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Course Catalog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>

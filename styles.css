@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero-section .hero-content p {
+    font-size: 24px;
+    margin: 0 0 40px;
+}
+
+.hero-section .hero-content button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-section .hero-content button:hover {
+    background-color: #45a049;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Courses Section */
+.courses-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.course-card p {
+    font-size: 16px;
+    margin: 0 15px 15px;
+}
+
+.course-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: calc(100% - 30px);
+}
+
+.course-card button:hover {
+    background-color: #45a049;
+}
+
+/* Instructors Section */
+.instructors-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.instructor-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.instructor-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.instructor-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.instructor-card p {
+    font-size: 16px;
+    margin: 0 15px 15px;
+}
+
+/* Reviews Section */
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.review h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.review p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.review p:last-child {
+    margin-bottom: 0;
+}
+
+/* Enrollment Form */
+.enrollment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.enrollment-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 16px;
+}
+
+.enrollment-form input,
+.enrollment-form select,
+.enrollment-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.enrollment-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.enrollment-form button:hover {
+    background-color: #45a049;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
